@@ -1,0 +1,1 @@
+NUM_TARGET = 12

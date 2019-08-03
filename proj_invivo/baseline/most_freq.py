@@ -61,8 +61,6 @@ def impute_label(data_path='../../data.csv', plot_mode=False):
                 label[i][j] = label[i][correlated_indices[j]]
     # if still NaN, replace with most frequent
     label = np.nan_to_num(label)
-
-
     return data, label
 
 

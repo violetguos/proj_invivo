@@ -8,10 +8,12 @@ dependencies:
   - ca-certificates=2019.6.16=hecc5488_0
   - certifi=2019.6.16=py37_1
   - cffi=1.12.3=py37hccf1714_0
+  - cycler=0.10.0=py_1
   - freetype=2.10.0=h24853df_0
   - intel-openmp=2019.4=233
   - joblib=0.13.2=py_0
   - jpeg=9c=h1de35cc_1001
+  - kiwisolver=1.1.0=py37h770b8ee_0
   - libblas=3.8.0=11_openblas
   - libcblas=3.8.0=11_openblas
   - libcxx=8.0.0=4
@@ -24,6 +26,8 @@ dependencies:
   - libtiff=4.0.10=hd08fb8f_1003
   - llvm-openmp=8.0.0=h770b8ee_0
   - lz4-c=1.8.3=h6de7cb9_1001
+  - matplotlib=3.1.1=py37_1
+  - matplotlib-base=3.1.1=py37h3a684a6_1
   - mkl=2019.4=233
   - ncurses=6.1=h0a44026_1002
   - ninja=1.9.0=h04f5b5a_0
@@ -34,6 +38,7 @@ dependencies:
   - pillow=6.0.0=py37h7095ceb_0
   - pip=19.2.1=py37_0
   - pycparser=2.19=py37_1
+  - pyparsing=2.4.2=py_0
   - python=3.7.3=h93065d6_1
   - python-dateutil=2.8.0=py_0
   - pytorch=1.1.0=py3.7_0
@@ -46,6 +51,7 @@ dependencies:
   - sqlite=3.29.0=hb7d70f7_0
   - tk=8.6.9=h2573ce8_1002
   - torchvision=0.3.0=py37_cuNone_1
+  - tornado=6.0.3=py37h01d97ff_0
   - wheel=0.33.4=py37_0
   - xz=5.2.4=h1de35cc_1001
   - zlib=1.2.11=h01d97ff_1005

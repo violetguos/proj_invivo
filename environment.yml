@@ -4,14 +4,28 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - asn1crypto=0.24.0=py37_1003
+  - blinker=1.4=py_1
+  - boto=2.49.0=py_0
+  - boto3=1.9.200=py_0
+  - botocore=1.12.200=py_0
+  - bz2file=0.98=py_0
   - bzip2=1.0.8=h01d97ff_0
   - ca-certificates=2019.6.16=hecc5488_0
   - certifi=2019.6.16=py37_1
   - cffi=1.12.3=py37hccf1714_0
+  - chardet=3.0.4=py37_1003
+  - cryptography=2.7=py37h212c5bf_0
+  - cycler=0.10.0=py_1
+  - docutils=0.14=py37_1001
   - freetype=2.10.0=h24853df_0
+  - gensim=3.4.0=py37h1de35cc_0
+  - idna=2.8=py37_1000
   - intel-openmp=2019.4=233
+  - jmespath=0.9.4=py_0
   - joblib=0.13.2=py_0
   - jpeg=9c=h1de35cc_1001
+  - kiwisolver=1.1.0=py37h770b8ee_0
   - libblas=3.8.0=11_openblas
   - libcblas=3.8.0=11_openblas
   - libcxx=8.0.0=4
@@ -24,28 +38,44 @@ dependencies:
   - libtiff=4.0.10=hd08fb8f_1003
   - llvm-openmp=8.0.0=h770b8ee_0
   - lz4-c=1.8.3=h6de7cb9_1001
+  - matplotlib=3.1.1=py37_1
+  - matplotlib-base=3.1.1=py37h3a684a6_1
   - mkl=2019.4=233
   - ncurses=6.1=h0a44026_1002
   - ninja=1.9.0=h04f5b5a_0
+  - nltk=3.2.5=py_0
   - numpy=1.17.0=py37h6b0580a_0
+  - oauthlib=3.0.1=py_0
   - olefile=0.46=py_0
   - openssl=1.1.1c=h01d97ff_0
   - pandas=0.25.0=py37h86efe34_0
   - pillow=6.0.0=py37h7095ceb_0
   - pip=19.2.1=py37_0
   - pycparser=2.19=py37_1
+  - pyjwt=1.7.1=py_0
+  - pyopenssl=19.0.0=py37_0
+  - pyparsing=2.4.2=py_0
+  - pysocks=1.7.0=py37_0
   - python=3.7.3=h93065d6_1
+  - python-crfsuite=0.9.6=py37h04f5b5a_1000
   - python-dateutil=2.8.0=py_0
   - pytorch=1.1.0=py3.7_0
   - pytz=2019.2=py_0
   - readline=8.0=hcfe32e1_0
+  - requests=2.22.0=py37_1
+  - requests-oauthlib=1.2.0=py_0
+  - s3transfer=0.2.1=py37_0
   - scikit-learn=0.21.3=py37hd4ffd6c_0
   - scipy=1.3.0=py37h7e0e109_1
   - setuptools=41.0.1=py37_0
   - six=1.12.0=py37_1000
+  - smart_open=1.8.4=py_0
   - sqlite=3.29.0=hb7d70f7_0
   - tk=8.6.9=h2573ce8_1002
   - torchvision=0.3.0=py37_cuNone_1
+  - tornado=6.0.3=py37h01d97ff_0
+  - twython=3.7.0=py_0
+  - urllib3=1.25.3=py37_0
   - wheel=0.33.4=py37_0
   - xz=5.2.4=h1de35cc_1001
   - zlib=1.2.11=h01d97ff_1005

@@ -200,7 +200,7 @@ class GRUmodel():
 
         return train_loss
 
-    def train(self, train_loader, valid_loader, num_epochs=10):
+    def train(self, train_loader, valid_loader, num_epochs=1):
         '''
         Wrapper function for training on training set + evaluation on validation set.
         # NOTE: validation not implemented due to time constraints
@@ -262,4 +262,5 @@ def plot():
 
 
 if __name__ == '__main__':
+    main()
     plot()

@@ -8,6 +8,7 @@ import sys
 sys.path.append("../../")
 import proj_invivo.utils.config as cfg
 
+
 def load_data(data_path='../../data.csv', test_mode=True):
     """
     Returns the smiles column of data csv file and the labels
